@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /opt/firefox/firefox:/home/tanke/.npm-global/bin:/opt/firefox/firefox:/usr/src/linux-headers-5.12.0-19.3-liquorix-amd64/tools/power/x86/x86_energy_perf_policy:/usr/src/linux-headers-5.12.0-19.3-liquorix-amd64/tools/power/x86/turbostat:/usr/src/linux-headers-5.12.0-19.3-liquorix-amd64/tools/power/cpupower:/usr/src/linux-headers-5.12.0-19.3-liquorix-amd64/tools/perf:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tanke/.local/bin:/usr/local/go/bin:/home/tanke/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/tanke/2b617697-62b1-43d7-8497-b89ba81b7fac1/proyectos/oyikil_app/com.ar.cooperativaoyikil/guia_post_backend/bundle/package.json: Unexpected token } in JSON at position 133
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app.js",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@babel/runtime": "7.16.3",
+      "cookie": "0.5.0",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "esbuild": "^0.14.42",
+      "express": "4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mariadb": "3.0.0",
+      "multer": "1.4.4",
+      "sequelize": "6.12.0-alpha.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
